@@ -1,0 +1,439 @@
+/* Контрольная точка (до 1280px) */
+@media screen and (max-width: 1280px) {
+	/* header */
+	.header_logo {
+		width: 80px;
+		height: 18px;
+		margin-bottom: 200px;
+	}
+	.header_h1 {
+		font-size: 48px;
+		letter-spacing: 4px;
+	}
+	.header_p {
+		margin-bottom: 150px;
+	}
+	/* header */
+	/* navigation  */
+	.navbar_body_flex {
+		max-width: 100%;
+		padding: 15px 20px;
+	}
+	.navbar_logo {
+		width: 65px;
+		height: 15px;
+	}
+	.nav {
+		gap: 15px;
+	}
+	.nav li {
+		width: 50px;
+	}
+	/* navigation  */
+	/* Our */
+	.our_inner {
+		max-width: 100%;
+		padding: 30px 20px;
+	}
+	.our_cards {
+		flex-direction: column;
+		align-items: center;
+		gap: 30px;
+	}
+	.inner_left {
+		max-width: 100%;
+		text-align: center;
+	}
+	.inner_right {
+		padding-top: 0;
+		justify-content: center;
+	}
+	.inner_card_right {
+		width: 120px;
+		height: 180px;
+		font-size: 20px;
+	}
+	/* our */
+	/* get in touch */
+	.touch_inner {
+		padding-top: 80px;
+		height: 400px;
+	}
+	.h1_touch {
+		font-size: 24px;
+		max-width: 300px;
+	}
+	/* get in touch */
+	/* newsletter */
+	.news_flex {
+		flex-direction: column;
+		gap: 20px;
+		text-align: center;
+	}
+	.input_group {
+		justify-content: center;
+	}
+	/* newsletter */
+	/* Footer */
+	.footer_body {
+		padding: 30px 20px;
+		flex-direction: column;
+		align-items: center;
+		gap: 30px;
+	}
+	.footer_item {
+		margin-right: 0;
+		text-align: center;
+	}
+	.footer_item_links {
+		margin-right: 0;
+	}
+	.footer_links_grid {
+		justify-content: center;
+	}
+	.footer_item_contacts {
+		margin-right: 0;
+		text-align: center;
+	}
+	.footer_item_social {
+		justify-content: center;
+	}
+}
+/* Footer */
+/* Контрольная точка (до 948px) */
+@media screen and (max-width: 948px) {
+	/* services  */
+	.services_inner {
+		max-width: 100%;
+		padding: 0 20px;
+	}
+	.inner_up {
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+		gap: 20px;
+	}
+	.h1_services {
+		margin-right: 0;
+	}
+	.h1_services::after {
+		justify-self: center;
+	}
+	.p_services {
+		margin-right: 0;
+	}
+	.inner_down {
+		flex-direction: column;
+		align-items: center;
+	}
+	.inner_card_services {
+		width: 100%;
+		max-width: 350px;
+	}
+}
+/* services  */
+/* Контрольная точка (до 768px) */
+@media screen and (max-width: 768px) {
+	/* header */
+	.header_flex {
+		padding: 20px 0 40px;
+	}
+	.header_logo {
+		width: 70px;
+		height: 16px;
+		margin-bottom: 120px;
+	}
+	.header_h1 {
+		font-size: 36px;
+		letter-spacing: 3px;
+		padding-left: 0;
+	}
+	.header_p {
+		font-size: 14px;
+		margin-bottom: 100px;
+	}
+	.header_scroll {
+		font-size: 10px;
+		letter-spacing: 0.2em;
+	}
+	/* header */
+	/* nav */
+	.navbar_body_flex {
+		flex-direction: column;
+		align-items: center;
+		gap: 20px;
+	}
+	.nav {
+		gap: 10px;
+	}
+	.nav_link {
+		font-size: 11px;
+		letter-spacing: 0.05em;
+	}
+	/* nav */
+	/* our story */
+	.our_title_h3 {
+		font-size: 16px;
+		letter-spacing: 0.1em;
+	}
+	.our_left_title {
+		font-size: 18px;
+		margin-bottom: 20px;
+	}
+	.our_left_text {
+		font-size: 12px;
+	}
+	.inner_card_right {
+		width: 100px;
+		height: 150px;
+		font-size: 16px;
+		padding: 10px;
+	}
+	/* our story */
+	/* services */
+	.h1_services {
+		font-size: 16px;
+		max-width: 100%;
+	}
+	.p_services {
+		font-size: 10px;
+		max-width: 100%;
+	}
+	.btn_primary {
+		width: 120px;
+		height: 35px;
+		font-size: 12px;
+	}
+	.inner_card_services {
+		height: auto;
+		padding: 20px;
+		text-align: center;
+	}
+	.h1_card_services {
+		font-size: 14px;
+		margin-bottom: 10px;
+	}
+	.p_services_card {
+		font-size: 12px;
+		max-width: 100%;
+	}
+	/* services */
+	/* get in touch */
+	.touch_inner {
+		padding-top: 60px;
+		height: 350px;
+	}
+	.h1_touch {
+		font-size: 20px;
+		max-width: 280px;
+	}
+	/* get in touch */
+	/* newsletter */
+	.news_h1 {
+		font-size: 18px;
+	}
+	.form_control {
+		width: 200px;
+		font-size: 12px;
+	}
+	/* newsletter */
+	/* footer */
+	.footer {
+		text-align: center;
+	}
+	.footer_item {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		width: 100%;
+		height: auto;
+	}
+	.footer_item_links {
+		width: 100%;
+		height: auto;
+	}
+	.footer_links_grid {
+		flex-direction: column;
+		gap: 5px;
+	}
+	.items_grid {
+		align-items: center;
+	}
+	.footer_item_contacts {
+		width: 100%;
+		height: auto;
+	}
+	.footer_copyright {
+		padding: 0 10px;
+	}
+}
+/* footer */
+/* Дополнительная контрольная точка (до 768px) */
+@media screen and (max-width: 768px) {
+	.navbar_body_flex {
+		flex-direction: row;
+		position: relative;
+	}
+	.menu-toggle {
+		display: flex;
+	}
+	.nav_flex {
+		position: absolute;
+		top: 100%;
+		left: 0;
+		width: 100%;
+		background-color: white;
+		box-shadow: 0 10px 15px rgba(0, 0, 0.1);
+		max-height: 0;
+		overflow: hidden;
+		transition: max-height 0.3s ease-out;
+	}
+	.nav_flex.active {
+		max-height: 400px;
+	}
+	.nav {
+		flex-direction: column;
+		gap: 0;
+		text-align: center;
+	}
+	.nav li {
+		width: 100%;
+		padding: 10px 0;
+		border-bottom: 1px solid #e6e6e6;
+	}
+	.nav_link {
+		display: block;
+		padding: 10px;
+	}
+	.navbar_logo {
+		margin-bottom: 5px;
+	}
+	/* newsletter  */
+	.form_control {
+		height: 35px;
+	}
+	/* newsletter  */
+}
+
+/* Контрольная точка (до 386px) */
+@media screen and (max-width: 386px) {
+	/* header */
+	.header_logo {
+		width: 60px;
+		height: 14px;
+		margin-bottom: 80px;
+	}
+	.header_h1 {
+		font-size: 24px;
+		letter-spacing: 2px;
+	}
+	.header_p {
+		font-size: 12px;
+		margin-bottom: 60px;
+	}
+	.header_scroll {
+		font-size: 9px;
+		letter-spacing: 0.15em;
+	}
+	/* header */
+	/* nav */
+	.navbar_logo {
+		width: 55px;
+		height: 13px;
+	}
+	.nav {
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	.nav li {
+		width: auto;
+		margin: 5px;
+	}
+	/* nav */
+	/* our story */
+	.our_title_h3 {
+		font-size: 14px;
+	}
+	.our_left_title {
+		font-size: 16px;
+		line-height: 1.3em;
+	}
+	.our_left_text {
+		font-size: 11px;
+	}
+	.inner_card_right {
+		width: 80px;
+		height: 120px;
+		font-size: 14px;
+	}
+	/* our story */
+	/* services */
+	.h1_services {
+		font-size: 14px;
+	}
+	.p_services {
+		font-size: 9px;
+	}
+	.btn_primary {
+		width: 100px;
+		height: 30px;
+		font-size: 11px;
+	}
+	.inner_card_services {
+		padding: 15px;
+	}
+	.h1_card_services {
+		font-size: 12px;
+	}
+	.p_services_card {
+		font-size: 11px;
+	}
+	/* services */
+	/* get in touch */
+	.touch_inner {
+		padding-top: 40px;
+		height: 280px;
+	}
+	.h1_touch {
+		font-size: 18px;
+		max-width: 250px;
+		margin-bottom: 20px;
+	}
+	/* get in touch */
+	/* newsletter */
+	.news_h1 {
+		font-size: 16px;
+	}
+	.form_control {
+		height: 30px;
+	}
+	.btn_primary.input_btn {
+		width: 80px;
+		font-size: 11px;
+	}
+	/* newsletter */
+	/* footer */
+	.footer_p_header {
+		font-size: 10px;
+	}
+	.footer_p {
+		font-size: 10px;
+	}
+	.footer_img {
+		max-width: 80px;
+	}
+	.p_footer_links {
+		font-size: 10px;
+	}
+	.item_links {
+		font-size: 10px;
+	}
+	.contacts_p {
+		font-size: 10px;
+	}
+	.footer_coopy {
+		font-size: 10px;
+		padding: 10px;
+	}
+}
+/* footer */
