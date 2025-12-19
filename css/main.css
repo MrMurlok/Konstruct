@@ -10,6 +10,7 @@
 
 html {
 	box-sizing: border-box;
+	scroll-behavior: smooth;
 }
 
 *,
@@ -319,6 +320,8 @@ body {
 	margin: 0 auto;
 	padding-top: 117px;
 	background-image: url(/img/bg_2.jpg);
+	background-position: center;
+	background-size: cover;
 	background-repeat: no-repeat;
 }
 .h1_touch {
