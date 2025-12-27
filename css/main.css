@@ -55,7 +55,7 @@ body {
 
 /* header  */
 .header_flex {
-	background-image: url(/img/bg.jpg);
+	background-image: url(../img/bg.jpg);
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -221,13 +221,13 @@ body {
 	text-transform: uppercase;
 }
 .inner_card_right:nth-child(1) {
-	background-image: url(/img/weplan.jpg);
+	background-image: url(../img/weplan.jpg);
 }
 .inner_card_right:nth-child(2) {
-	background-image: url(/img/wemanage.jpg);
+	background-image: url(../img/wemanage.jpg);
 }
 .inner_card_right:nth-child(3) {
-	background-image: url(/img/webuild.jpg);
+	background-image: url(../img/webuild.jpg);
 }
 /* our  */
 
@@ -319,7 +319,7 @@ body {
 	height: 498px;
 	margin: 0 auto;
 	padding-top: 117px;
-	background-image: url(/img/bg_2.jpg);
+	background-image: url(../img/bg_2.jpg);
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
